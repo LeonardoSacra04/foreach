@@ -218,7 +218,12 @@ for (int i = 0; i < numeroDeItens; i++)
     rolagens[i] = gerador.Next(1, 7);
 }
 
-//Array
+//Array.Sort(rolagens);
+
+foreach(var rolagem in rolagens)
+{
+    Console.Write($"{rolagem} ");
+}
 
 // Aplicação: sorteando valores em uma lista
 Console.WriteLine("--Aplicação: sorteando valores em uma lista");
